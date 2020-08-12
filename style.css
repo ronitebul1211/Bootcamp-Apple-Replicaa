@@ -1,0 +1,130 @@
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utility */
+
+.bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+}
+
+.bar-item{
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+
+
+
+/* Nav Bar ********************************************************************/
+.bar-container__navbar {
+  background: rgb(45, 48, 51);
+  position: fixed;
+  opacity: 0.96;
+  top:0;
+  right: 0;
+  left:0;
+}
+.nav-options {
+  display: flex;
+  list-style: none;
+}
+.bar-item__nav {
+  color:white;
+  opacity: 0.8;
+  padding: 0 2.5rem;
+}
+.bar-item__nav:hover {
+  opacity: 1;
+}
+
+/* Main section *************************************************************************************************************/
+
+/* Main Container */
+.main-container{
+  display: grid;
+  grid-template-rows:  min-content 628px 80vh;
+  overflow-x: hidden;
+}
+
+/* Bars-section *************************************************************************************************************/
+.bar-section{ 
+  padding-top:44px;
+}
+
+/* Covid-19 Bar*/
+.bar-container__covid-19{
+  background: #0071E3;
+}
+
+.bar-item__covid-19--link,
+.bar-item__covid-19--text {
+  color: white;
+}
+.bar-item__covid-19--link:hover {
+  text-decoration: underline;
+}
+
+/* Shop now Bar*/
+.shop-online{
+  background: #ffffff;
+}
+
+.bar-item__shop--link{
+  color: #0071E3;
+}
+.bar-item__shop--link:hover{
+  text-decoration: underline;
+}
+
+/* Section 2 - iPhoneSE */
+.iPhoneSE-section{
+  /* background: #131313; */
+  background: pink;
+  width: 100%;
+
+
+}
+
+.content {
+  color:teal;
+  font-size: 20px;
+  
+
+}
+
+.image-wrapper{
+  background: purple;
+  width: 100%;
+  
+}
+
+
+figure {
+  margin: auto;
+  width: 1156px;
+  height: 584px;
+  background-repeat: no-repeat;
+  background-size: 1156px 584px ;
+  background-image: url('img/hero_iphone.jpg');
+}
+
+
+  
+
+
